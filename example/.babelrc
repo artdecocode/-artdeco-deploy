@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    [
+      "transform-rename-import",
+      {
+        "original": "@artdeco/deploy",
+        "replacement": "../src"
+      }
+    ]
+  ],
+  "extends": "../.babelrc"
+}
